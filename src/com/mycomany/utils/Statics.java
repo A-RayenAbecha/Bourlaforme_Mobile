@@ -7,10 +7,13 @@ package com.mycomany.utils;
 
 /**
  *
- * @author aziz3
+ * @author Lenovo
  */
 public class Statics {
     
     
     public static final String BASE_URL="http://127.0.0.1:8000";//hathi url mt3 symfony 
+        public static final String BASE_URL2="http://localhost:8888/";//hathi url mt3 symfony 
+   public static final String URL_UPLOAD = BASE_URL2 + "/imageServer.php";
+      public static final String URL_REP_IMAGES = BASE_URL2 + "/uploads/articles/";
 }

@@ -46,7 +46,7 @@ import com.codename1.ui.util.Resources;
 /**
  * The newsfeed form
  *
- * @author aziz3
+ * @author Shai Almog
  */
 public class NewsfeedForm extends BaseForm {
 

@@ -9,7 +9,7 @@ import com.codename1.io.Preferences;
 
 /**
  *
- * @author aziz3
+ * @author Lenovo
  */
 public class SessionManager {
     
@@ -19,11 +19,10 @@ public class SessionManager {
     
     // hethom données ta3 user lyt7b tsajlhom fi session  ba3d login 
     private static int id ; 
-    private static String nom ; 
-    private static String prenom ; 
+    private static String userName ; 
     private static String email; 
     private static String passowrd ;
-    private static String image;
+    private static String photo;
 
     public static Preferences getPref() {
         return pref;
@@ -41,23 +40,13 @@ public class SessionManager {
         pref.set("id",id);//nsajl id user connecté  w na3tiha identifiant "id";
     }
 
-    public static String getNom() {
-        return nom;
+    public static String getUserName() {
+        return pref.get("username",userName);
     }
 
-    public static String getPrenom() {
-        return prenom;
+    public static void setUserName(String userName) {
+         pref.set("username",userName);
     }
-
-    public static void setNom(String nom) {
-        SessionManager.nom = nom;
-    }
-
-    public static void setPrenom(String prenom) {
-        SessionManager.prenom = prenom;
-    }
-    
-    
 
     public static String getEmail() {
         return pref.get("email",email);
@@ -75,12 +64,12 @@ public class SessionManager {
          pref.set("passowrd",passowrd);
     }
 
-    public static String getImage() {
-        return pref.get("image",image);
+    public static String getPhoto() {
+        return pref.get("photo",photo);
     }
 
-    public static void setImage(String photo) {
-         pref.set("image",image);
+    public static void setPhoto(String photo) {
+         pref.set("photo",photo);
     }
     
     
