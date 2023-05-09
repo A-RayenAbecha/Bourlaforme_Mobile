@@ -7,61 +7,39 @@ package com.mycomany.entities;
 
 /**
  *
- * @author Administrateur
+ * @author rayen
  */
 public class Article {
-    
-    private int id,prix;
-    private String nom, description,image,etat;
+
+    private int id;
+
+    private String nom;
+
+    private String description;
+
+    private String image;
+
+    private int prix;
+
+    private int quantity;
 
     public Article() {
     }
 
-    public Article(int id) {
+    public Article(int id, String nom, String description, String image, int prix) {
         this.id = id;
-    }
-
-    public Article(int id, int prix, String nom, String description) {
-        this.id = id;
-        this.prix = prix;
-        this.nom = nom;
-        this.description = description;
-    }
-    
-    
-
-    public Article(int id, int prix, String nom, String description, String image, String etat) {
-        this.id = id;
-        this.prix = prix;
         this.nom = nom;
         this.description = description;
         this.image = image;
-        this.etat = etat;
-    }
-
-    public Article(int prix, String nom, String description, String image, String etat) {
         this.prix = prix;
-        this.nom = nom;
-        this.description = description;
-        this.image = image;
-        this.etat = etat;
     }
 
-    
     public int getId() {
         return id;
     }
 
     public void setId(int id) {
         this.id = id;
-    }
-
-    public int getPrix() {
-        return prix;
-    }
-
-    public void setPrix(int prix) {
-        this.prix = prix;
     }
 
     public String getNom() {
@@ -88,18 +66,25 @@ public class Article {
         this.image = image;
     }
 
-    public String getEtat() {
-        return etat;
+    public int getPrix() {
+        return prix;
     }
 
-    public void setEtat(String etat) {
-        this.etat = etat;
+    public void setPrix(int prix) {
+        this.prix = prix;
     }
 
-    public void setQuantity(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public int getQuantity() {
+        return quantity;
     }
-    
-    
-    
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    @Override
+    public String toString() {
+        return "Article{" + "id=" + id + ", nom=" + nom + ", description=" + description + ", image=" + image + ", prix=" + prix + ", quantity=" + quantity + '}';
+    }
+
 }

@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/gui/articles.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycomany/utils/Statics.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/services/PanierService.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycomany/entities/Panier.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/gui/SuppSeanceForm.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/gui/ListArticleBack.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/gui/ListCommentaireForm.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/gui/BaseForm.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/services/ServiceArticle.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/services/ServiceCommentaire.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycomany/entities/Commande.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/gui/ListArticleForm.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/pidevv/MyApplication.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/gui/Crud_Commentaires_Front.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/gui/Crud_article.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycomany/entities/BillingAddress.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/services/CommandeService.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/services/CheckoutService.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/gui/FrontBack.java</file>
-            <file>file:/C:/Users/Administrateur/Downloads/CodeNameOne-Formation-Youtube-main/src/com/mycompany/services/PaymentService.java</file>
+            <file>file:/C:/Users/aziz3/OneDrive/Bureau/mobile/WorkShops-CodenameOne-master/src/com/mycomany/utils/DateUtils.java</file>
+            <file>file:/C:/Users/aziz3/OneDrive/Bureau/mobile/WorkShops-CodenameOne-master/src/com/mycomany/utils/Statics.java</file>
+            <file>file:/C:/Users/aziz3/OneDrive/Bureau/mobile/WorkShops-CodenameOne-master/src/com/mycomany/utils/AlertUtils.java</file>
+            <file>file:/C:/Users/aziz3/OneDrive/Bureau/mobile/WorkShops-CodenameOne-master/src/com/mycompany/services/PanierService.java</file>
         </group>
     </open-files>
 </project-private>

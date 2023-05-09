@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package com.mycompany.services;
+
 import com.mycomany.entities.Article;
 import com.mycomany.utils.Statics;
 import com.codename1.components.InfiniteProgress;

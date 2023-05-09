@@ -8,13 +8,18 @@ import com.codename1.io.CharArrayReader;
 import com.codename1.io.ConnectionRequest;
 import com.codename1.io.JSONParser;
 import com.codename1.io.NetworkManager;
+import static com.codename1.ui.CN.updateNetworkThreadCount;
 import com.codename1.ui.ComboBox;
 import com.codename1.ui.Dialog;
+import com.codename1.ui.Form;
 import com.codename1.ui.TextField;
+import com.codename1.ui.Toolbar;
+import com.codename1.ui.plaf.UIManager;
 import com.codename1.ui.util.Resources;
 import com.mycomany.utils.Statics;
 import com.mycompany.gui.SessionManager;
 import com.mycompany.gui.SignInForm;
+import com.mycompany.gui.front.AccueilFront;
 import java.util.Map;
 import java.util.Vector;
 
@@ -30,7 +35,14 @@ public class ServiveUtilisateur {
     String json;
     
     private ConnectionRequest req;
-    
+        private Resources theme;
+    private Form current;
+
+    public void init(Object context) {
+        updateNetworkThreadCount(3);
+        Resources theme = UIManager.initFirstTheme("/theme");
+        Toolbar.setGlobalToolbar(true);
+    }
     public static ServiveUtilisateur getInstance() {
         if(instance == null )
             instance = new ServiveUtilisateur();
@@ -128,9 +140,13 @@ public class ServiveUtilisateur {
                 
                 if(user.size() >0 ) 
                    // houni nzid user win yemchi baed ma yamel login
-                    System.out.println("you are logged in");
-                    
-                    }
+                { System.out.println("you are logged in");
+                            if (current != null) {
+            current.show();
+        }
+
+        new AccueilFront().show();
+                    }}
             
             }catch(Exception ex) {
                 ex.printStackTrace();
