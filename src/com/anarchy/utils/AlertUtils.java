@@ -8,16 +8,16 @@ public class AlertUtils {
     public static void makeNotification(String message) {
         new java.util.Timer().schedule(
                 new java.util.TimerTask() {
-                    @Override
-                    public void run() {
-                        ToastBar.getInstance().setPosition(Component.TOP);
-                        ToastBar.Status status = ToastBar.getInstance().createStatus();
-                        status.setShowProgressIndicator(false);
-                        status.setMessage(message);
-                        status.setExpires(3000);
-                        status.show();
-                    }
-                },
+            @Override
+            public void run() {
+                ToastBar.getInstance().setPosition(Component.TOP);
+                ToastBar.Status status = ToastBar.getInstance().createStatus();
+                status.setShowProgressIndicator(false);
+                status.setMessage(message);
+                status.setExpires(3000);
+                status.show();
+            }
+        },
                 2000
         );
     }

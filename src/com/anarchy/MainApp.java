@@ -1,6 +1,7 @@
 package com.anarchy;
 
-import com.anarchy.gui.WelcomePage;
+import com.anarchy.gui.back.AccueilBack;
+import com.anarchy.gui.front.AccueilFront;
 import com.codename1.ui.Dialog;
 import com.codename1.ui.Form;
 import com.codename1.ui.Toolbar;
@@ -16,6 +17,7 @@ import static com.codename1.ui.CN.updateNetworkThreadCount;
  */
 public class MainApp {
 
+    private Resources theme;
     private Form current;
 
     public void init(Object context) {
@@ -29,7 +31,8 @@ public class MainApp {
             current.show();
             return;
         }
-        new WelcomePage().show();
+
+        new AccueilFront().show();
     }
 
     public void stop() {
